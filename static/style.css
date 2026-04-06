@@ -1,0 +1,37 @@
+/* Gradient Background */
+.bg-gradient {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    min-height: 100vh;
+    color: white;
+}
+
+/* Colorful Card */
+.colorful-card {
+    background: white;
+    border-radius: 15px;
+    color: #333;
+}
+
+/* Button Animation */
+.animate-button {
+    transition: all 0.3s ease;
+}
+
+.animate-button:hover {
+    transform: scale(1.05);
+    background-color: #28a745; /* Green on hover */
+}
+
+/* Alert Success with Color */
+.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+/* Chart Container */
+canvas {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+}
